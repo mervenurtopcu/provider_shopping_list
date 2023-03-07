@@ -27,12 +27,6 @@ class ShoppingProvider extends ChangeNotifier{
     _saveList.remove(shoppingCardModel);
     notifyListeners();
   }
-  bool _isVisible =false;
-  bool get isVisible =>_isVisible;
 
-  void changeVisible(){
-    _isVisible !=_isVisible;
-    notifyListeners();
-  }
 
 }
